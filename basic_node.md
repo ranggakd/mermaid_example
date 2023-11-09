@@ -49,12 +49,12 @@ Markdown formatting
 title: Markdown Formatting
 ---
 
-graph LR
-    markdown["`This is __bold markdown__`"]
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+flowchart LR
+    markdown["`This **is** _Markdown_`"]
     newLines["`Line1
-    Line2
-    Line3`"]
-
+    Line 2
+    Line 3`"]
     markdown --> newLines
 ```
 
