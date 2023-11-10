@@ -42,14 +42,15 @@ graph LR
     id["This is 🍉 Unicode"]
 ```
 
-Markdown formatting
+Markdown formatting 
+
+> Per 10 November 2023, only work for **Mermaid Live Editor** & **Markdown Preview Mermaid Support VSCode Extension**
 
 ```mermaid
 ---
 title: Markdown Formatting
 ---
 
-%%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart LR
     markdown["`This **is** _Markdown_`"]
     newLines["`Line1
