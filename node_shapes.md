@@ -77,50 +77,69 @@ graph LR
     id{This is the text in the box}
 ```
 
+### A hexagon node
+
+```mermaid
+---
+title: A hexagon node
+---
+
+graph LR
+    id{{This is the text in the box}}
+```
+
+### Parallelogram
+
+```mermaid
+---
+title: Parallelogram
+---
+
+graph LR
+    id[/This is the text in the box/]
+```
+
+### Parallelogram alt
+
+```mermaid
+---
+title: Parallelogram alt
+---
+
+graph LR
+    id[\This is the text in the box\]
+```
+
+### Trapezoid
+
+```mermaid
+---
+title: Trapezoid
+---
+
+graph LR
+    id[/This is the text in the box\]
+```
+
+### Trapezoid alt
 
 
+```mermaid
+---
+title: Trapezoid alt
+---
 
+graph LR
+    id[\This is the text in the box/]
+```
 
+### Double circle
 
+```mermaid
+---
+title: Double circle
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+graph LR
+    id(((This is the text in the box)))
+```
